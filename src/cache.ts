@@ -1,5 +1,5 @@
 import { BunFile } from 'bun'
-import { stat } from 'fs/promises'
+import { stat } from 'node:fs/promises'
 
 export async function isCached(
     headers: Record<string, string | undefined>,
